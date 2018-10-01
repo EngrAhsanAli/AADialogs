@@ -12,7 +12,7 @@ With AADialogs, you can show your custom dialogs using storyboard view controlle
   s.screenshots     = 'https://raw.githubusercontent.com/EngrAhsanAli/AADialogs/master/Screenshots/AADialogs.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ahsan Ali' => 'hafiz.m.ahsan.ali@gmail.com' }
-  s.source           = { :git => 'https://github.com/Ahsan Ali/AADialogs.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/EngrAhsanAli/AADialogs.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'AADialogs/Classes/**/*'
   s.dependency 'AAViewAnimator', '~> 1.0'

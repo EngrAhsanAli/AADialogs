@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="C05-Rb-7lV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Demo AADialog-->
+        <scene sceneID="jAE-EE-gUv">
+            <objects>
+                <viewController id="hY4-w9-r3x" customClass="ViewController" customModule="AADialogs_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a8g-lv-Kxv"/>
+                        <viewControllerLayoutGuide type="bottom" id="8SC-gu-4v4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tCT-8U-BVw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egg-Pb-g8E">
+                                <rect key="frame" x="87.5" y="307" width="200" height="53"/>
+                                <color key="backgroundColor" red="0.15294117647058825" green="0.68235294117647061" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="4ul-Ej-ODc"/>
+                                    <constraint firstAttribute="width" constant="200" id="zcB-4q-CeF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="25"/>
+                                <state key="normal" title="Display!!!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="triggerPopup:" destination="hY4-w9-r3x" eventType="touchUpInside" id="qxA-vW-sIi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.61176470588235299" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Egg-Pb-g8E" firstAttribute="centerX" secondItem="tCT-8U-BVw" secondAttribute="centerX" id="1Ji-m8-drM"/>
+                            <constraint firstItem="Egg-Pb-g8E" firstAttribute="centerY" secondItem="tCT-8U-BVw" secondAttribute="centerY" id="wdM-F3-eRV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Demo AADialog" id="xvU-f6-U7I"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JZI-de-v3v" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="32.74647887323944"/>
+        </scene>
+        <!--Demo Dialog View Controller-->
+        <scene sceneID="vrL-8n-cnX">
+            <objects>
+                <viewController storyboardIdentifier="DemoPopup" id="iof-7S-Ikx" customClass="DemoDialogViewController" customModule="AADialogs_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dOf-vf-TXJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="taV-uC-m93"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MLd-yz-j37">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view tag="999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gb-fI-0hj">
+                                <rect key="frame" x="15" y="140" width="345" height="387"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type your name here ...." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ea-by-WIb">
+                                        <rect key="frame" x="0.0" y="66" width="345" height="40"/>
+                                        <color key="backgroundColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="92D-fu-Kcq"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="0.69549978599999995" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wC3-hT-AtZ">
+                                        <rect key="frame" x="0.0" y="109" width="345" height="222"/>
+                                        <color key="backgroundColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <string key="text">Type your comments about AADialogs Cocoapods framework. Hit like to my official repo at https://github.com/engrahsanali 
+I would love to know if you are using AADialogs in your app, send an email to hafiz.m.ahsan.ali@gmail.com</string>
+                                        <color key="textColor" white="1" alpha="0.69549978599999995" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpz-Qp-GPh">
+                                        <rect key="frame" x="0.0" y="339" width="345" height="40"/>
+                                        <color key="backgroundColor" red="0.16078431372549018" green="0.50196078431372548" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="auD-wV-LFY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                        <state key="normal" title="Submit">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="demoButtonAction:" destination="iof-7S-Ikx" eventType="touchUpInside" id="eUc-VV-Mpt"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to AADialogs!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsw-Ot-5qk">
+                                        <rect key="frame" x="0.0" y="28" width="345" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sPj-qC-vIw">
+                                        <rect key="frame" x="315" y="0.0" width="30" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="PRi-as-Nux"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                        <state key="normal" title="x">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="closeAction:" destination="iof-7S-Ikx" eventType="touchUpInside" id="wRX-Kw-N4B"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.58431372549019611" green="0.6470588235294118" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="5ea-by-WIb" firstAttribute="trailing" secondItem="wC3-hT-AtZ" secondAttribute="trailing" id="4aC-Ea-GTg"/>
+                                    <constraint firstItem="sPj-qC-vIw" firstAttribute="trailing" secondItem="wsw-Ot-5qk" secondAttribute="trailing" id="4pA-mX-teu"/>
+                                    <constraint firstItem="wsw-Ot-5qk" firstAttribute="top" secondItem="2gb-fI-0hj" secondAttribute="top" constant="28" id="4uD-lt-R5H"/>
+                                    <constraint firstItem="sPj-qC-vIw" firstAttribute="trailing" secondItem="2gb-fI-0hj" secondAttribute="trailingMargin" constant="8" id="9qr-BA-v1k"/>
+                                    <constraint firstItem="wC3-hT-AtZ" firstAttribute="top" secondItem="5ea-by-WIb" secondAttribute="bottom" constant="3" id="Gef-CZ-bI4"/>
+                                    <constraint firstItem="Tpz-Qp-GPh" firstAttribute="bottom" secondItem="2gb-fI-0hj" secondAttribute="bottomMargin" id="JSN-hU-CXi"/>
+                                    <constraint firstItem="5ea-by-WIb" firstAttribute="top" secondItem="sPj-qC-vIw" secondAttribute="bottom" constant="40" id="Jzl-qU-J8P"/>
+                                    <constraint firstItem="5ea-by-WIb" firstAttribute="leading" secondItem="wC3-hT-AtZ" secondAttribute="leading" id="ThX-GW-s09"/>
+                                    <constraint firstItem="wC3-hT-AtZ" firstAttribute="trailing" secondItem="Tpz-Qp-GPh" secondAttribute="trailing" id="Zy6-Lk-i6S"/>
+                                    <constraint firstItem="wsw-Ot-5qk" firstAttribute="trailing" secondItem="5ea-by-WIb" secondAttribute="trailing" id="g2B-8o-fRv"/>
+                                    <constraint firstItem="wsw-Ot-5qk" firstAttribute="leading" secondItem="2gb-fI-0hj" secondAttribute="leadingMargin" constant="-8" id="gH4-eT-J4c"/>
+                                    <constraint firstItem="sPj-qC-vIw" firstAttribute="top" secondItem="2gb-fI-0hj" secondAttribute="topMargin" constant="-8" id="hIU-8r-BYN"/>
+                                    <constraint firstItem="wC3-hT-AtZ" firstAttribute="leading" secondItem="Tpz-Qp-GPh" secondAttribute="leading" id="ju3-h0-kzi"/>
+                                    <constraint firstItem="wsw-Ot-5qk" firstAttribute="leading" secondItem="5ea-by-WIb" secondAttribute="leading" id="qk6-Hc-EBr"/>
+                                    <constraint firstItem="5ea-by-WIb" firstAttribute="top" secondItem="wsw-Ot-5qk" secondAttribute="bottom" constant="8" id="rLp-OZ-sQv"/>
+                                    <constraint firstItem="Tpz-Qp-GPh" firstAttribute="top" secondItem="wC3-hT-AtZ" secondAttribute="bottom" constant="8" symbolic="YES" id="xdo-L9-sAP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2gb-fI-0hj" firstAttribute="leading" secondItem="MLd-yz-j37" secondAttribute="leading" constant="15" id="5dt-WX-P7b"/>
+                            <constraint firstItem="taV-uC-m93" firstAttribute="top" secondItem="2gb-fI-0hj" secondAttribute="bottom" constant="140" id="9y3-HX-HQg"/>
+                            <constraint firstItem="2gb-fI-0hj" firstAttribute="top" secondItem="dOf-vf-TXJ" secondAttribute="bottom" constant="120" id="HwV-Wh-AEh"/>
+                            <constraint firstAttribute="trailing" secondItem="2gb-fI-0hj" secondAttribute="trailing" constant="15" id="iJL-fZ-3Hu"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="demoLabel" destination="wsw-Ot-5qk" id="baE-HJ-76m"/>
+                        <outlet property="demoTextField" destination="5ea-by-WIb" id="i3X-yu-p0Q"/>
+                        <outlet property="demoTextView" destination="wC3-hT-AtZ" id="DoP-3C-XDZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vo6-I3-TB0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1738.125" y="32.74647887323944"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6gs-aT-IzH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C05-Rb-7lV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hrm-gb-ba2">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hY4-w9-r3x" kind="relationship" relationship="rootViewController" id="SOD-EF-B5G"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ocv-kx-9O9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="22.5" y="32.74647887323944"/>
+        </scene>
+    </scenes>
+</document>

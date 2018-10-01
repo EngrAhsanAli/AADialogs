@@ -1,0 +1,6 @@
+framework module AADialogs {
+  umbrella header "AADialogs-umbrella.h"
+
+  export *
+  module * { export * }
+}

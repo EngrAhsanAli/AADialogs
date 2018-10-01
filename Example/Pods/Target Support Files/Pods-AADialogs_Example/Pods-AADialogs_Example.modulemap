@@ -1,0 +1,6 @@
+framework module Pods_AADialogs_Example {
+  umbrella header "Pods-AADialogs_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - AADialogs (1.0):
+    - AAViewAnimator (~> 1.0)
+  - AAViewAnimator (1.0)
+
+DEPENDENCIES:
+  - AADialogs (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AAViewAnimator
+
+EXTERNAL SOURCES:
+  AADialogs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AADialogs: 28eab20090d4ca86c8657be1e7b040ecc2f57240
+  AAViewAnimator: 52134b67a9dcedeccd273675f314d111b10b94b6
+
+PODFILE CHECKSUM: d649fefd7920687ddb027eccbfe10681206397d2
+
+COCOAPODS: 1.6.0.beta.1

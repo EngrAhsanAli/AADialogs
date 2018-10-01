@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'AADialogs_Example' do
+  pod 'AADialogs', :path => '../'
+end

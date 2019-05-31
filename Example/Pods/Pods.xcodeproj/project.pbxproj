@@ -52,7 +52,7 @@
 		0689A7E0CF32092BBB2274A5FEE2E323 /* AAViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AAViewAnimator-dummy.m"; sourceTree = "<group>"; };
 		21278E4A792EE1EC212630A5E2BC8064 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		286E557886268D438407DC272C3685B1 /* Pods-AADialogs_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AADialogs_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C4BBED9FDC61499155015DBCD137344 /* AADialogs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AADialogs.framework; path = AADialogs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4BBED9FDC61499155015DBCD137344 /* AADialogs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AADialogs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C85D54B0964333B5CA075727CA60417 /* Pods-AADialogs_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AADialogs_Example-dummy.m"; sourceTree = "<group>"; };
 		337EA4AEC02A6E7354555BED9E824603 /* Pods-AADialogs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AADialogs_Example.release.xcconfig"; sourceTree = "<group>"; };
 		38CDAC61947FC6B0E06A40DD0AC03F37 /* AADialogs-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AADialogs-Info.plist"; sourceTree = "<group>"; };
@@ -64,9 +64,9 @@
 		76E084EDC0AAE3D7D6532C4D73342B2C /* Pods-AADialogs_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AADialogs_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		77C493DE15EF5D59159712A3048F3F1E /* AAViewAnimator+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AAViewAnimator+UIKit.swift"; path = "AAViewAnimator/Classes/AAViewAnimator+UIKit.swift"; sourceTree = "<group>"; };
 		787177D646A0721DA5FC69951A3BBFC0 /* AAViewAnimator+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AAViewAnimator+Helper.swift"; path = "AAViewAnimator/Classes/AAViewAnimator+Helper.swift"; sourceTree = "<group>"; };
-		80964628912B866855274D162BB9FED6 /* AADialogs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AADialogs.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		80964628912B866855274D162BB9FED6 /* AADialogs.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AADialogs.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		80D204C8E47BECDB18C2349F788488B8 /* AAViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AAViewAnimator.swift; path = AAViewAnimator/Classes/AAViewAnimator.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A5EA26D02CCE04A51A046B8C016A305 /* AADialogs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AADialogs.xcconfig; sourceTree = "<group>"; };
 		9BA1E753CFFC067F4E4C582857AF067A /* AADialogs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AADialogs-prefix.pch"; sourceTree = "<group>"; };
 		B6C18875346EB631DA84A47A103BFADA /* AAViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AAViewAnimator-umbrella.h"; sourceTree = "<group>"; };
@@ -76,12 +76,12 @@
 		C894934A604D0AB491DB1F26F0EB464F /* AADialogs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AADialogs.swift; path = AADialogs/Classes/AADialogs.swift; sourceTree = "<group>"; };
 		C97C8206D8136BDB94F29F324AEABE80 /* AADialogs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AADialogs.modulemap; sourceTree = "<group>"; };
 		DAFAD76DAD787233B37D281BE7EB3801 /* Pods-AADialogs_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AADialogs_Example-Info.plist"; sourceTree = "<group>"; };
-		DDB8870F65C48995460A4414B46C5492 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DDB8870F65C48995460A4414B46C5492 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E8623FB4CF86357452A405D03AF56260 /* AAViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AAViewAnimator.modulemap; sourceTree = "<group>"; };
 		EBCB2188BA8FC5D1EA1B3769DFF6CB79 /* AAViewAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AAViewAnimator-Info.plist"; sourceTree = "<group>"; };
-		EF7A98E2B21EED9F64A446C0B33C1105 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F06CD77697AAB7CAA17B7D0FB1DA9872 /* AAViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AAViewAnimator.framework; path = AAViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6C39B288D8520BCF5D9A2BAFA44EA24 /* Pods_AADialogs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AADialogs_Example.framework; path = "Pods-AADialogs_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7A98E2B21EED9F64A446C0B33C1105 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F06CD77697AAB7CAA17B7D0FB1DA9872 /* AAViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AAViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C39B288D8520BCF5D9A2BAFA44EA24 /* Pods_AADialogs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AADialogs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,6 @@
 				77C493DE15EF5D59159712A3048F3F1E /* AAViewAnimator+UIKit.swift */,
 				47D34787A8C118A1325D82FE152691D8 /* Support Files */,
 			);
-			name = AAViewAnimator;
 			path = AAViewAnimator;
 			sourceTree = "<group>";
 		};
@@ -349,12 +348,21 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					0BE47FC020023C0554974E78AC2EBD60 = {
+						LastSwiftMigration = 1020;
+					};
+					1FCF15AF70923F78E94377D2179A05AB = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -505,9 +513,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -540,7 +547,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -631,7 +638,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -662,9 +669,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -763,8 +769,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

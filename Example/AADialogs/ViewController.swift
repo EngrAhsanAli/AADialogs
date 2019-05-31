@@ -15,10 +15,9 @@ class ViewController: UIViewController {
     let alertVC = getViewController("Main", id: "DemoPopup") as! DemoDialogViewController
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        //        alertVC.setAbsHeight(500)
+        super.viewDidLoad()        
+
+//        alertVC.setAbsHeight(500)
         
     }
     
@@ -45,7 +44,6 @@ func getViewController(_ storyboard: String, id: String) -> UIViewController {
 
 
 extension UIViewController {
-    
     static let demoPopup = AADialog("DemoPopup", storyboard: "Main").viewsController
 }
 

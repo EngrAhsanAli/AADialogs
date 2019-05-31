@@ -31,7 +31,7 @@ fileprivate extension UIViewController {
         }
     }
     
-    func addViewController(_ viewController: UIViewController?, effect: UIBlurEffectStyle?) {
+    func addViewController(_ viewController: UIViewController?, effect: UIBlurEffect.Style?) {
         let currentVC = viewController ?? rootViewController
 
         if let style = effect {
@@ -39,12 +39,12 @@ fileprivate extension UIViewController {
         }
         
         currentVC.view.addSubview(view)
-        currentVC.addChildViewController(self)
+        currentVC.addChild(self)
   
     }
     
     func removeViewController() {
-        removeFromParentViewController()
+        removeFromParent()
         view.removeFromSuperview()
         blurEffectView?.removeFromSuperview()
         blurEffectView = nil
@@ -54,7 +54,7 @@ fileprivate extension UIViewController {
 
 fileprivate extension UIView {
     
-    func addBlur(style: UIBlurEffectStyle) -> UIVisualEffectView {
+    func addBlur(style: UIBlurEffect.Style) -> UIVisualEffectView {
         
         let blurEffect = UIBlurEffect(style: style)
         let blurBackground = UIVisualEffectView(effect: blurEffect)
@@ -97,7 +97,7 @@ extension UIViewController {
     open func aa_show_alert(duration: TimeInterval = 0.3,
                             springDamping: AAViewDamping = .none,
                             animation: AAViewAnimators = .zoomIn,
-                            blurEffect: UIBlurEffectStyle? = .dark,
+                            blurEffect: UIBlurEffect.Style? = .dark,
                             viewController: UIViewController? = nil,
                             completion: ((Bool, UIViewController) -> ())? = nil) {
 
